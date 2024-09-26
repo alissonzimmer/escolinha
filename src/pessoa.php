@@ -63,7 +63,7 @@ class Pessoa {
         $stm->bind_param('i', $codigo);
         $stm->execute();
 
-        if ($stm->affected_rows > 0) {
+        if (!$stm->error) {
             return ['status' => 'ok', 'msg' => 'Registro excluído com sucesso'];
         }
 
@@ -88,7 +88,7 @@ class Pessoa {
         );
         $stm->execute();
 
-        if ($stm->affected_rows > 0) {
+        if (!$stm->error) {
             return ['status' => 'ok', 'msg' => 'Registro atualizado com sucesso'];
         }
 
@@ -108,7 +108,7 @@ class Pessoa {
         );
         $stm->execute();
 
-        if ($stm->affected_rows > 0) {
+        if (!$stm->error) {
             return ['status' => 'ok', 'msg' => 'Registro criado com sucesso'];
         }
 
