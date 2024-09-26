@@ -42,6 +42,9 @@ form.addEventListener('submit', e => {
         return resposta.json()
     }).then(function(data) {
         window.alert(data.msg)
-        window.location = 'index.shtml'
+        
+        if (data.status == 'ok') {
+            window.location = 'index.shtml'
+        }
     })
 })
