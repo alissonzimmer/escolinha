@@ -39,12 +39,12 @@
         <!-- Menu Dropdown -->
         <div
           id="cadastros-menu"
-          class="hidden absolute top-full left-0 mt-2 w-48 origin-top-left rounded-md bg-background shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+          class="hidden absolute top-full left-0 mt-2 w-48 origin-top-left rounded-md bg-background shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none bg-white"
         >
           <ul class="py-1">
             <li>
               <a
-                href="../pessoa"
+                href="/public/view/pessoa/"
                 class="block px-4 py-2 text-sm text-gray-700 hover:bg-accent hover:text-accent-foreground"
               >
                 Pessoa
@@ -52,7 +52,7 @@
             </li>
             <li>
               <a
-                href="../aluno"
+                href="/public/view/aluno"
                 class="block px-4 py-2 text-sm text-gray-700 hover:bg-accent hover:text-accent-foreground"
               >
                 Aluno
@@ -60,7 +60,7 @@
             </li>
             <li>
               <a
-                href="../curso"
+                href="/public/view/curso"
                 class="block px-4 py-2 text-sm text-gray-700 hover:bg-accent hover:text-accent-foreground"
               >
                 Curso
@@ -68,7 +68,7 @@
             </li>
             <li>
               <a
-                href="../materia"
+                href="/public/view/materia"
                 class="block px-4 py-2 text-sm text-gray-700 hover:bg-accent hover:text-accent-foreground"
               >
                 Matéria
@@ -92,4 +92,4 @@
   <div class="absolute left-0 top-full flex justify-center"></div>
 </nav>
 
-<script src="../../js/menu/index.js"></script>
+<script src="/public/js/menu/index.js"></script>
