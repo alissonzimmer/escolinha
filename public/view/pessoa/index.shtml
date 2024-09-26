@@ -22,22 +22,22 @@
 			<table id="pessoas" class="w-full caption-bottom text-sm">
 			  <thead class="[&amp;_tr]:border-b">
 				<tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted">
-				  <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+				  <th class="h-12 px-4 text-left align-middle font-bold text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
 					ID
 				  </th>
-				  <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+				  <th class="h-12 px-4 text-left align-middle font-bold text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
 					Nome
 				  </th>
-				  <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+				  <th class="h-12 px-4 text-left align-middle font-bold text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
 					Documento
 				  </th>
-				  <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+				  <th class="h-12 px-4 text-left align-middle font-bold text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
 					Data de Nascimento
 				  </th>
-				  <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+				  <th class="h-12 px-4 text-left align-middle font-bold text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
 					Data de Cadastro
 				  </th>
-				  <th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
+				  <th class="h-12 px-4 text-left align-middle font-bold text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">
 					Ações
 				  </th>
 				</tr>
@@ -52,6 +52,6 @@
 
   </body>
 
-  <script src="../../js/pessoa/index.js"></script>
+  <script src="/public/js/pessoa/index.js"></script>
 
 </html>
