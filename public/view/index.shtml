@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>ESCOLHINHA DO SENAI</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+		<link href="../css/styles.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+    <!--#include virtual="menu/index.shtml" -->
+    </body>
+</html>
